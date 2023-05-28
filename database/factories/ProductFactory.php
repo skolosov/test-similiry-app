@@ -42,7 +42,7 @@ class ProductFactory extends Factory
         return [
             Product::FIELD_NAME => Arr::random(self::COLORS) . ' ' . Arr::random(self::CLOTHES),
             Product::FIELD_VIEWS => 0,
-//            Product::FIELD_VIEWS => $this->faker->randomNumber(1),
+//            Product::FIELD_VIEWS => $this->faker->randomNumber(2),
         ];
     }
 }
